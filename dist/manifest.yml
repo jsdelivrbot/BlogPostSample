@@ -1,0 +1,7 @@
+---
+applications:
+- name: bpost    
+  buildpack: staticfile_buildpack
+  memory: 32M 
+  instances: 1
+  host: bpost
